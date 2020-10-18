@@ -127,7 +127,7 @@ public class ConwayGameofLife {
 				   pause.setEnabled(true);
 				   if(!started){
 					   
-					   for(int i = 0; i < gridSize; i++) {
+					   for(int i = 0; i < gridSize+14; i++) {
 				    		for(int j = 0; j < gridSize; j++) {
 				    			
 				    			backup[i][j].setStatus(pixelGrid[i][j].isAlive());
